@@ -85,7 +85,7 @@ const Message = ({ chat, onButtonClick }: MessageProps) => {
             renderers={{
               paragraph: ({ children }) => <span>{children}</span>,
               link: ({ href, children }) => (
-                <a href={href} target="_blank">
+                <a href={href}>
                   {children}
                 </a>
               )
